@@ -7,7 +7,15 @@ Compiled on: `Linux armbian 4.8.4-sunxi #6 SMP Sun Oct 23 15:55:47 CEST 2016 arm
 
 ## Istallation
 
-Download DEB files above.
+Download DEB files above (and MD5 files if you want to check file integrity) .
+
+### Optional: MD5 check
+
+Example:
+```
+$ md5sum -c libsearpc*.md5 
+libsearpc-3.0-latest_armhf.deb: OK
+```
 
 ### CommandLine only
 ```
