@@ -1,5 +1,4 @@
-# seafile-client_cli-gui_rpi
-Seafile Client for Raspberry Pi (CommandLine and/or GUI)
+# Seafile Client for Raspberry Pi (CommandLine and/or GUI)
 
 Based on: https://manual.seafile.com/build_seafile/linux.html
 
