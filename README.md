@@ -6,7 +6,12 @@ Compiled on: `Linux ARMbian 4.8.4-sunxi #6 SMP Sun Oct 23 15:55:47 CEST 2016 arm
 
 ## Istallation
 
-Download DEB files above (and MD5 files if you want to check file integrity).
+Download DEB files above (and MD5 files if you want to check file integrity), example for download `ccnet-6.0.0_armhf.deb` to your current directory:
+
+```
+pwd
+wget https://github.com/saljut7/seafile-client-rpi/blob/master/ccnet-6.0.0_armhf.deb
+```
 
 ### Optional: MD5 check
 
