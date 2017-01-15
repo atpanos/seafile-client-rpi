@@ -1,13 +1,13 @@
-# seafile-client_cli-gui_arm
-Seafile CommandLine and GUI Client for ARM systems
+# seafile-client_cli-gui_rpi
+Seafile Client for Raspberry Pi (CommandLine and/or GUI)
 
 Based on: https://manual.seafile.com/build_seafile/linux.html
 
-Compiled on: `Linux armbian 4.8.4-sunxi #6 SMP Sun Oct 23 15:55:47 CEST 2016 armv7l GNU/Linux`
+Compiled on: `Linux ARMbian 4.8.4-sunxi #6 SMP Sun Oct 23 15:55:47 CEST 2016 armv7l GNU/Linux`
 
 ## Istallation
 
-Download DEB files above (and MD5 files if you want to check file integrity) .
+Download DEB files above (and MD5 files if you want to check file integrity).
 
 ### Optional: MD5 check
 
@@ -16,38 +16,42 @@ Example:
 $ md5sum -c libsearpc*.md5 
 libsearpc-3.0-latest_armhf.deb: OK
 ```
+### Install Seafile client dependencies
 
+```
+sudo apt update && sudo apt install qt5-default libqtcore4
+```
 ### CommandLine only
 ```
-dpkg -i libsearpc*.deb
-dpkg -i ccnet*.deb
-dpkg -i seafile-daemon*.deb
+sudo dpkg -i libsearpc*.deb
+sudo dpkg -i ccnet*.deb
+sudo dpkg -i seafile-daemon*.deb
 ```
 
 ### with GUI
 ```
-dpkg -i libsearpc*.deb
-dpkg -i ccnet*.deb
-dpkg -i seafile-daemon*.deb
-dpkg -i seafile-client*.deb
+sudo dpkg -i libsearpc*.deb
+sudo dpkg -i ccnet*.deb
+sudo dpkg -i seafile-daemon*.deb
+sudo dpkg -i seafile-client*.deb
 ```
 
 ## Uninstall
 ### libsearpc
 ```
-dpkg -r libsearpc-3.0
+sudo dpkg -r libsearpc-3.0
 ```
 ### ccnet
 ```
-dpkg -r ccnet-6.0.0
+sudo dpkg -r ccnet-6.0.0
 ```
 ### seafile-daemon
 ```
-dpkg -r seafile-daemon-6.0.0
+sudo dpkg -r seafile-daemon-6.0.0
 ```
 ### seafile-client
 ```
-dpkg -r seafile-client
+sudo dpkg -r seafile-client
 ```
 
 ## Usage
