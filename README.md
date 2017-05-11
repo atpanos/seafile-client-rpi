@@ -6,7 +6,13 @@ Compiled on: `Linux ARMbian 4.8.4-sunxi #6 SMP Sun Oct 23 15:55:47 CEST 2016 arm
 
 ## Istallation
 
-### Install Seafile client dependencies
+### Install Seafile client dependencies CLI
+
+```
+sudo apt update && sudo apt install libjansson-dev
+```
+
+### Install Seafile client dependencies GUI
 
 ```
 sudo apt update && sudo apt install qt5-default libqtcore4
