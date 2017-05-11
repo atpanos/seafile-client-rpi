@@ -44,7 +44,7 @@ The command line client is just what is called "seafile-daemon" so you just need
 
 ```
 sudo dpkg -i seafile-client_6.0.0_rpi/libsearpc-3.0-latest_rpi.deb
-sudo dpkg -i seafile-client_6.0.0_rpi/ccnet_6.0.0_rpi.deb
+sudo dpkg -i seafile-client_6.0.0_rpi/ccnet-6.0.0_rpi.deb
 sudo dpkg -i seafile-client_6.0.0_rpi/seafile-daemon_6.0.0_rpi.deb
 ```
 
